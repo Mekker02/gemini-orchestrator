@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gemini-orchestrator",
+  "description": "Claude as orchestrator, Gemini CLI as worker agents for multi-LLM task delegation.",
+  "owner": {
+    "name": "mekker",
+    "url": "https://github.com/mekker"
+  },
+  "plugins": [
+    {
+      "name": "gemini-orchestrator",
+      "description": "Delegate subtasks to Gemini CLI. Claude plans and synthesizes; Gemini researches and drafts.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

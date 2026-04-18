@@ -1,0 +1,11 @@
+{
+  "name": "gemini-orchestrator",
+  "description": "Claude as orchestrator, Gemini CLI as worker agents. Delegates subtasks to Gemini CLI via Bash and synthesizes results.",
+  "version": "1.0.0",
+  "author": {
+    "name": "mekker"
+  },
+  "license": "MIT",
+  "keywords": ["gemini", "orchestrator", "multi-llm", "agents"],
+  "skills": ["./skills/gemini-orchestrator"]
+}
